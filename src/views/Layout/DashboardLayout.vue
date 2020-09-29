@@ -13,6 +13,14 @@
         </sidebar-item>
 
         <sidebar-item
+          :link="{
+            name: 'Новости',
+            path: '/news',
+            icon: 'ni ni-folder-17 text-white'
+          }">
+        </sidebar-item>
+
+        <sidebar-item
             :link="{
               name: 'Иконки',
               path: '/icons',
@@ -21,13 +29,7 @@
             >
         </sidebar-item>
 
-        <!-- <sidebar-item
-              :link="{
-                name: 'Maps',
-                path: '/maps',
-                icon: 'ni ni-pin-3 text-orange'
-              }">
-        </sidebar-item> -->
+       
 
         <!-- <sidebar-item
               :link="{
