@@ -61,7 +61,7 @@
         </sidebar-item> -->
       </template>
     </side-bar>
-    <div class="main-content">
+    <div class="main-content bg-gray">
       <dashboard-navbar :type="$route.meta.navbarType"></dashboard-navbar>
       <!-- <div>meme</div> -->
       <div @click="$sidebar.displaySidebar(false)">
