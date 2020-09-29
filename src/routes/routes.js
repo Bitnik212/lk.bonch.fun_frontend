@@ -27,15 +27,15 @@ const routes = [
         name: 'Профиль',
         component: () => import(/* webpackChunkName: "demo" */ '../views/Pages/UserProfile.vue')
       },
+      // {
+      //   path: '/maps',
+      //   name: 'maps',
+      //   component: () => import(/* webpackChunkName: "demo" */ '../views/GoogleMaps.vue')
+      // },
       {
-        path: '/maps',
-        name: 'maps',
-        component: () => import(/* webpackChunkName: "demo" */ '../views/GoogleMaps.vue')
-      },
-      {
-        path: '/tables',
-        name: 'tables',
-        component: () => import(/* webpackChunkName: "demo" */ '../views/RegularTables.vue')
+        path: '/news',
+        name: 'Новости',
+        component: () => import(/* webpackChunkName: "demo" */ '../views/Pages/News/AllNews.vue')
       }
     ]
   },
