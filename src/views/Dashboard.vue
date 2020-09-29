@@ -4,18 +4,13 @@
        <b-row>
          <div class="h1 text-white m-3">Новости колледжа</div>
        </b-row>
-     
-      
     </base-header>
-     
-    <!--Charts-->
+
     <b-container fluid class="mt--8">
       <b-row>
-        
         <News></News>
       </b-row>
     </b-container>
-
   </div>
 </template>
 <script>
