@@ -27,16 +27,26 @@ const routes = [
         name: 'Профиль',
         component: () => import(/* webpackChunkName: "demo" */ '../views/Pages/UserProfile.vue')
       },
-      // {
-      //   path: '/maps',
-      //   name: 'maps',
-      //   component: () => import(/* webpackChunkName: "demo" */ '../views/GoogleMaps.vue')
-      // },
+      
+      
+    ]
+  },
+  {
+    path: '/news',
+    redirect: 'news',
+    component: DashboardLayout,
+    children: [
       {
         path: '/news',
         name: 'Новости',
         component: () => import(/* webpackChunkName: "demo" */ '../views/Pages/News/AllNews.vue')
-      }
+      },
+      {
+        path: '/news/:id',
+        name: 'Статья',
+        component: () => import(/* webpackChunkName: "demo" */ '../views/Pages/News/Article.vue')
+      },
+      { path: '*', component: NotFound }
     ]
   },
   {
