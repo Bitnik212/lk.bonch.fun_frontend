@@ -14,6 +14,8 @@ import BaseNav from "@/components/Navbar/BaseNav";
 import BaseHeader from '@/components/BaseHeader';
 import News from '@/components/News/News';
 import NewsCard from '@/components/News/NewsCard';
+import ArticleCard from '@/components/News/ArticleCard';
+import SettingsCard from '@/components/Settings/SettingsCard';
 import { ValidationProvider, ValidationObserver } from 'vee-validate';
 import { Input, Tooltip, Popover } from 'element-ui';
 /**
@@ -38,6 +40,8 @@ const GlobalComponents = {
     Vue.component(StatsCard.name, StatsCard);
     Vue.component(News.name, News);
     Vue.component(NewsCard.name, NewsCard);
+    Vue.component(ArticleCard.name, ArticleCard);
+    Vue.component(SettingsCard.name, SettingsCard);
     Vue.component(Input.name, Input);
     Vue.component('validation-provider', ValidationProvider)
     Vue.component('validation-observer', ValidationObserver)
