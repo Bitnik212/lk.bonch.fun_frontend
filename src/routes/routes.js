@@ -27,7 +27,11 @@ const routes = [
         name: 'Профиль',
         component: () => import(/* webpackChunkName: "demo" */ '../views/Pages/UserProfile.vue')
       },
-      
+      {
+        path: '/settings',
+        name: 'Настройки',
+        component: () => import(/* webpackChunkName: "demo" */ '../views/Pages/Settings/Settings.vue')
+      },
       
     ]
   },
