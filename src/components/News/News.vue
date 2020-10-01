@@ -10,7 +10,7 @@
                  :data='news.data'
                  ></NewsCard>
             </div>
-            <base-button block type="primary">Загрузить еще</base-button>
+            <base-button block type="primary" class="mx-3">Загрузить еще</base-button>
         </div>
     </div>
 </template>
