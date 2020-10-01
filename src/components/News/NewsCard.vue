@@ -11,8 +11,9 @@
             </div>
             <div class="title mb-2">{{title}}</div>
             <div class="text">{{content[0].text[0]}}</div>
-            <base-button class="mt-3"  type="secondary">Читать далее</base-button>
-            
+            <router-link to='/news/1'>
+                <base-button class="mt-3" type="secondary">Читать далее</base-button>
+            </router-link>
         </div>
     </div> 
 </template>
@@ -61,7 +62,6 @@ export default {
     color: white;
     font-size: 25px;
     font-weight: 800;
-    
 }
 .label  .type{
     color: rgba(255, 255, 255, 0.5);
