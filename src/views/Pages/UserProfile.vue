@@ -6,7 +6,7 @@
         <!-- Mask -->
         <span class="mask bg-gradient-gray opacity-8 "></span>
         <!-- Header container -->
-        <!-- <b-container fluid class="d-flex align-items-center">
+        <b-container fluid class="d-flex align-items-center">
           <b-row >
             <b-col lg="7" md="10">
               <h1 class="display-2 text-white">Привет, Bit</h1>
@@ -14,7 +14,7 @@
               <a href="#!" class="btn btn-info">Ясно</a>
             </b-col>
           </b-row>
-        </b-container> -->
+        </b-container>
       </b-container>
     </div>
 
